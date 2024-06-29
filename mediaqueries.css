@@ -1,0 +1,46 @@
+/*Media query para telas menores que 768px*/
+@media screen and (max-width: 768px){
+
+/*TOPO DO SITE*/
+
+    section.topo-do-site .interface{
+        margin-top: 50px; /*Reduzir a margem superior*/
+    }
+
+    section.topo-do-site .titulo h1{
+        font-size: 44px;
+    }
+
+    section.topo-do-site .btn-contato a {
+        font-size: 18px;
+    }
+
+    section.topo-do-site .btn-contato button {
+        width: 250px;
+        height: 45px;
+    }
+}
+
+/*Media query para telas menores que 480px*/
+@media screen and (max-width: 480px){
+
+/*TOPO DO SITE*/
+
+    section.topo-do-site .interface{
+        margin-top: 30px;
+    }
+
+    section.topo-do-site .titulo h1{
+        font-size: 35px;
+    }
+
+    section.topo-do-site .btn-contato a {
+        font-size: 14px;
+    }
+
+    section.topo-do-site .btn-contato button {
+        width: 180px;
+        height: 40px;
+    }
+
+}

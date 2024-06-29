@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/*tOPO-DO-SITE*/
+
+section.topo-do-site{
+    background-image: url('/images/backgroundInicio.png');
+    display: flex; /*Deixar o conteiner flexível*/
+    justify-content: center; /*centralizar horizontalmente*/
+    align-items: center; /*centralizar verticalmente*/
+    min-height: 100vh; /*altura minima é toda a altura do ViewPort*/
+    background-size: cover; /*a imagem deve cubrir todo o Body*/
+    background-position: center; /*imagem será centraliza*/
+}
+
+section.topo-do-site .interface{
+    margin-top: 150px;
+}
+
+
+
+
+section.topo-do-site .titulo h1{
+    color: #fff;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+section.topo-do-site .btn-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+section.topo-do-site .btn-contato a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+section.topo-do-site .btn-contato button{
+    background-color: #F9EF23;
+    width: 250px;
+    height: 50px;
+    border: none;
+    
+}
+
+section.topo-do-site .btn-contato button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+/*SOBRE*/
+
+section.sobre{
+    height: 100vh;
+    background-color: #141414;
+}
+
+section.sobre .interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section.sobre .flex{
+    display: flex;
+}
+
+section.sobre .txt-sobre{
+    position: relative; /* Adicionando position: relative para criar um contexto de posicionamento */
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+section.sobre .txt-sobre h1{
+    color: #F9EF23;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+section.sobre .txt-sobre p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+section.sobre .txt-sobre a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 0;
+}
+
+section.sobre .test{
+    position: absolute;
+    bottom: 0;
+}
+
+section.sobre .test:hover{
+    transform: scale(1.04);
+    
+}
+
+
+
+section.sobre .mulher-sobre{
+    margin-top: 80px; 
+    margin-left: 25px;
+}
+
+
+/*SERVICOS*/
+section.servicos {
+    height: 100vh;
+    background-color: #141414;
+}
+
+section.servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+section.servicos .interface .txt-servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+section.servicos .interface .txt-servicos h1{
+    font-size: 44px;
+    color: #F9EF23;
+}
+
+section.servicos .interface .txt-servicos p{
+   color: #fff;
+   font-size: 18px;
+}
+
+section.servicos .interface img{
+    margin-right: 15px;
+}
+section.servicos .images-button p{
+    font-size: 25px;
+    color: #fff;
+
+}
+section.servicos .images-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.images-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.images-button .img-tour,
+.images-button .img-aulas,
+.images-button .img-personal {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.images-button img {
+    display: block;
+    width: 365px;
+}
+
+.images-button p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+}
+
+
+/*DEPOIMENTOS*/
+
+section.depoimentos{
+    height: 100vh;
+    background-color: #141414;
+}
+
+
+
+
+section.depoimentos .txt-depoimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+section.depoimentos .txt-depoimentos h1{
+    color: #F9EF23;
+    font-size: 44px;
+}
+
+
+
+section.depoimentosPessoas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section.depoimentos .depoimentosPessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.depoimentos .depoimentosPessoas img {
+    margin: 20px;
+    background-color: #F9EF23;
+    padding-bottom: 160px;
+}
+
+section.depoimentos .txt-comentario{
+    color: #fff;
+    width: 380px;
+    background-color: #F9EF23;
+
+}
+
+
+/*CONTATO*/
+
+section.contato{
+    background-image: url('/images/backgroundContato.png');
+    display: flex; /*Deixar o conteiner flexível*/
+    justify-content: start; /*centralizar horizontalmente*/
+    align-items: center; /*centralizar verticalmente*/
+    min-height: 100vh; /*altura minima é toda a altura do ViewPort*/
+    background-size: cover; /*a imagem deve cubrir todo o Body*/
+    background-position: center; /*imagem será centraliza*/
+}
+
+section.contato .txt-contato{
+    width: 280px;
+    margin-left: 150px;
+
+}
+
+
+section.contato .txt-contato h1{
+    color: #F9EF23;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+
+/*FOOTER*/
+
+
+footer .interface {
+    background-color: #F9EF23;
+    height: 221px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+footer .flex {
+    display: flex;
+}
+
+footer .endereco,
+footer .email,
+footer .telefone {
+    text-align: start;
+    margin-left: 150px;
+    
+}
+
+
+footer .email,
+footer .telefone {
+    margin-left: 170px;
+}
+
+footer p {
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
