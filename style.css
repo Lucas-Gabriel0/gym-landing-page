@@ -12,7 +12,7 @@ body{
 /*tOPO-DO-SITE*/
 
 section.topo-do-site{
-    background-image: url('/images/backgroundInicio.png');
+    background-image: url('images/backgroundInicio.png');
     display: flex; /*Deixar o conteiner flexível*/
     justify-content: center; /*centralizar horizontalmente*/
     align-items: center; /*centralizar verticalmente*/
@@ -261,7 +261,7 @@ section.depoimentos .txt-comentario{
 /*CONTATO*/
 
 section.contato{
-    background-image: url('/images/backgroundContato.png');
+    background-image: url('images/backgroundContato.png');
     display: flex; /*Deixar o conteiner flexível*/
     justify-content: start; /*centralizar horizontalmente*/
     align-items: center; /*centralizar verticalmente*/
